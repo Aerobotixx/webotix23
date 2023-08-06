@@ -19,8 +19,8 @@ if(isset($_POST['name'])){
     //Send using SMTP
     $mail->Host       = 'smtp.hostinger.com';                       //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                       //Enable SMTP authentication
-    $mail->Username   = 'noreply@aerobotix.in';                          //SMTP username
-    $mail->Password   = 'Aerobotix@2023';                               //SMTP password
+    $mail->Username   = '';                          //SMTP username
+    $mail->Password   = '';                               //SMTP password
     $mail->SMTPSecure = 'ssl';                                      //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -52,8 +52,8 @@ if(isset($_POST['name'])){
     //Send using SMTP
     $mail1->Host       = 'smtp.hostinger.com';                       //Set the SMTP server to send through
     $mail1->SMTPAuth   = true;                                       //Enable SMTP authentication
-    $mail1->Username   = 'noreply@aerobotix.in';                          //SMTP username
-    $mail1->Password   = 'Aerobotix@2023';                               //SMTP password
+    $mail1->Username   = '';                          //SMTP username
+    $mail1->Password   = '';                               //SMTP password
     $mail1->SMTPSecure = 'ssl';                                      //Enable implicit TLS encryption
     $mail1->Port       = 465;
 
